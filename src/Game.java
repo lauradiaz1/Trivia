@@ -35,21 +35,21 @@ public class Game implements ActionListener{
 			             {"The Iron State", "The Volunteer State", "Fried Chicken State", "Pickle State"},
 			             {"The Golden State", "Rush State", "The Bronze State", "Hollywood State"},
 			             {"Fried Chicken State", "The Bourbon State", "The Limestone State", "The Bluegrass State"},
-			             {"Show Me State", "The Jazz State", "The Oversized ", ""},
-			             {"The River State", "", "Magnolia State", ""},
-			             {"", "Treasure State", "", ""},
-			             {"", "", "", "The Lone Star State"},
-			             {"", "Gem State", "", ""},
-			             {"", "", "Beehive State", ""},
-			             {"Buckeye State", "", "", ""},
-			             {"Beaver State", "", "", ""},
-			             {"", "", "", "Empire State"},
-			             {"", "", "Mountain State", ""},
-			             {"", "Equality State", "", ""},
-			             {"Sooner State", "", "", ""},
-			             {"", "", "", "Ocean State"},
-			             {"", "", "Keystone State", ""},
-			             {"", "", "", "Sunflower State"},
+			             {"Show Me State", "The Jazz State", "The Oversized State", "The Pecan State"},
+			             {"The River State", "Southern Charm State", "The Magnolia State", "Cotton Capital"},
+			             {"Yellowstone State", "Treasure State", "Terrain State", "Mineral Mine State"},
+			             {"The Bluebonnet State", "Star State", "The Longhorn State", "The Lone Star State"},
+			             {"Potato State", "Gem State", "The Canyon State", "Farm State"},
+			             {"The Skii State", "Salt Lake State", "Beehive State", "Mormon State"},
+			             {"Buckeye State", "Cradle of Aviation", "The Rock and Roll State", "The River State"},
+			             {"Beaver State", "Otter State", "The Wood State", "Mount Hood State"},
+			             {"Lady Liberty State", "Wall Street State", "The Skyscraper State", "Empire State"},
+			             {"Hiking State", "Whitewater State", "Mountain State", "Half State"},
+			             {"National Park State", "Equality State", "Wildlife State", "Plain State"},
+			             {"Sooner State", "Okra State", "The Grit State", "Oil State"},
+			             {"The Jewel State", "Termite State", "The Hope State", "Ocean State"},
+			             {"Coal State", "The Mine State", "Keystone State", "Mushroom State"},
+			             {"Wizard State", "The Plain State", "Wheat State", "Sunflower State"},
 			             {"", "Peach State", "", ""},
 			             {"Pelican State", "", "", ""}
 			            
@@ -357,7 +357,7 @@ public class Game implements ActionListener{
 		
 		
 		result = (int)((correct_guess /(double)total_questions)*100);
-		
+		 
 		textfield.setText("Results!");
 		textarea.setText("");
 		answer_labelA.setText("");
