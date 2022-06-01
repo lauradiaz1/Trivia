@@ -27,8 +27,6 @@ public class Game implements ActionListener{
 			               "What is Georgia's nickname?",
 			               "What is Louisiana's nickname?"
 			               
-
-			               
 	};
 	
 	String[][] options = {
@@ -50,8 +48,8 @@ public class Game implements ActionListener{
 			             {"The Jewel State", "Termite State", "The Hope State", "Ocean State"},
 			             {"Coal State", "The Mine State", "Keystone State", "Mushroom State"},
 			             {"Wizard State", "The Plain State", "Wheat State", "Sunflower State"},
-			             {"", "Peach State", "", ""},
-			             {"Pelican State", "", "", ""}
+			             {"Peanut State", "Peach State", "Coca-Cola State", "Climate State"},
+			             {"Pelican State", "The Gumbo State", "Mardi Gras State", "The Seafood State"}
 			            
 			
 	};
